@@ -1,10 +1,34 @@
-<?php $name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "irefurbished.bg@gmail.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+<?php
+$field_name = $_POST['cf_name'];
+$field_email = $_POST['cf_email'];
+$field_message = $_POST['cf_message'];
+
+$mail_to = 'irefurbished.bg@gmail.com';
+$subject = 'Message from a site visitor '.$field_name;
+
+$body_message = 'From: '.$field_name."\n";
+$body_message .= 'E-mail: '.$field_email."\n";
+$body_message .= 'Message: '.$field_message;
+
+$headers = 'From: '.$field_email."\r\n";
+$headers .= 'Reply-To: '.$field_email."\r\n";
+$headers .=  "MIME-Version: 1.0" . "\r\n" . 
+               "Content-type: text/html; charset=UTF-8" . "\r\n";
+			   
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
+
+if ($mail_status) { ?>
+	<script language="javascript" type="text/javascript">
+	alert('The Message is sent!');
+		window.location = 'contacts.html';
+	</script>
+<?php
+}
+else { ?>
+	<script language="javascript" type="text/javascript">
+	alert('The Message is not received!');
+		window.location = 'contacts.html';
+	</script>
+<?php
+}
 ?>
