@@ -80,9 +80,6 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #f7f7f7 url("images/bg01.png");
-	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2746,6 +2743,14 @@ input, select, textarea {
 #banner ul.float-item {
   float: left;
 }
+
+/*-------------------------------Youtube Video--------------------------------*/
+
+#banner iframe.youtube-video{
+	width: 560px;
+	height: 315px ;
+}
+
 /*-----------------Blog-----------------------*/
 #blog{
 	padding-top: 50px;
@@ -3080,6 +3085,12 @@ input, select, textarea {
 				#banner header .button {
 					margin: 1em 0 0 0;
 				}
+				/*-------------------------------Youtube Video--------------------------------*/
+
+#banner iframe.youtube-video{
+	width: 275px;
+	height: 170px ;
+}
 				
 
 		/* CTA */
