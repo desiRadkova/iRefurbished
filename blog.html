@@ -6,44 +6,6 @@
 		<title>iRefurbished-Blog Page</title>
 		<meta charset="utf-8" />
 		
-		<!-- Breadcrumb -->
-		<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "iRefurbished-Categories",
-    "item": "https://irefurbished.netlify.com"
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Opening showroom ",
-    "item": "https://irefurbished.netlify.com/pages/articles/openingshowroomarticle"
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "name": "What does it mean refurbished?",
-    "item": "https://irefurbished.netlify.com/pages/articles/irefurbishedarticle"
-  },{
-    "@type": "ListItem",
-    "position": 4,
-    "name": "Apple Accessories Manufacturers",
-    "item": "https://irefurbished.netlify.com/pages/articles/appleaccessoriesmanufacturersarticle"
-  }]
-}{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "url": "https://irefurbished.netlify.com",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://query.irefurbished.netlify.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
-		
 		<!--Facebook OG Tags-->
 		
 		<meta property="og:url" content="blog.html" />
@@ -93,13 +55,31 @@ refurbished products are second hand... difference between refurbished and used 
 
 				</div>
 
-			<!-- Main -->
+			<!-- Main --><section id="blog-breadcrumb">
+			<!--Breadcrumb-->
+				
+    <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope
+          itemtype="http://schema.org/ListItem">
+        <a itemprop="item" href="https://irefurbished.netlify.com">
+        <span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1" />
+      </li>
+      <li itemprop="itemListElement" itemscope
+          itemtype="http://schema.org/ListItem">
+        <span itemprop="name">Blog</span>
+        <meta itemprop="position" content="2" />
+      </li>
+    </ol></section>
 				<section class="wrapper style1">
+				
 					<div class="container">
+					
 						<div class="row gtr-200">
 							<div class="col-4 col-12-narrower">
 								<div id="sidebar">
 
+										
 									<!-- Sidebar -->
 
 										<section>
@@ -117,6 +97,8 @@ refurbished products are second hand... difference between refurbished and used 
 									<!-- Content -->
 
 										<article id="blog">
+														
+				
 											<header>
 												<h2>This is our Blog</h2>
 												<p>It is written by Desislava Radkova</p>

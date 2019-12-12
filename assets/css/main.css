@@ -2782,6 +2782,32 @@ input, select, textarea {
 		border-top: 2px solid #2D6345;
 		opacity: 0.5;
 	}
+	/*------------------------------Breadcrumb------------------------*/
+	#blog-breadcrumb{
+		padding-top: 0px;
+	}
+#blog-breadcrumb ol.breadcrumb {
+  padding: 10px 400px 0px 890px;
+  list-style: none;
+  background-color: #eee;
+}
+#blog-breadcrumb ol.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+#blog-breadcrumb ol.breadcrumb li+li:before {
+  padding: 2px 2px 0px 2px;
+  color: black;
+  content: "/\00a0";
+}
+#blog-breadcrumb ol.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+#blog-breadcrumb ol.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
 	
 	/*----------------------List and Grid iPhones-----------------------*/
 	/* Create two equal columns that floats next to each other */
