@@ -2750,6 +2750,29 @@ input, select, textarea {
 	width: 560px;
 	height: 315px ;
 }
+/*------------------------------Breadcrumb------------------------*/
+#banner ol.breadcrumb {
+  padding: 10px 400px 0px 400px;
+  list-style: none;
+  background-color: #eee;
+}
+#banner ol.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+#banner ol.breadcrumb li+li:before {
+  padding: 2px 2px 0px 2px;
+  color: black;
+  content: "/\00a0";
+}
+#banner ol.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+#banner ol.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
 
 /*-----------------Blog-----------------------*/
 #blog{
