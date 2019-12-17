@@ -112,6 +112,12 @@ input, select, textarea {
 	#preview-blog{
 			border: 0px;
 		}
+		#preview-blog-one{
+			border: 0px;
+		}
+		#preview-blog-two{
+			border: 0px;
+		}
 		
 
 		a:hover {
