@@ -3039,7 +3039,7 @@ input, select, textarea {
 
 	}/*Privacy Policy*/
 	#footer div.privacy_policy{
-		padding-left: 830px;
+		text-align: center;
 	}
 
 /* Narrow */
@@ -3236,7 +3236,7 @@ input, select, textarea {
 					/*Privacy Policy*/
 	#footer div.privacy_policy{
 		padding-top: 5px;
-		padding-left: 85px;
+		text-align: center;
 		
 	}
 
@@ -3502,7 +3502,7 @@ input, select, textarea {
 			/*Privacy Policy*/
 	#footer div.privacy_policy{
 		padding-top: 5px;
-		padding-left: 80px;
+		text-align: center;
 	}
 
 		/* Wrapper */
@@ -3592,7 +3592,7 @@ input, select, textarea {
 		/*Privacy Policy*/
 	#footer div.privacy_policy{
 		padding-top: 5px;
-		padding-left: 95px;
+		text-align: center;
 	}	
 
 	}
