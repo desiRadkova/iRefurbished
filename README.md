@@ -8,7 +8,7 @@
 * Outgoing/Incoming connections
 * Keywords in URL
 * Readable URL
-* Keywords in <h1>....<h6>
+* Keywords in h1....h6
 * GDPR Page
 * Google map + pin
 * FB OG Tags
